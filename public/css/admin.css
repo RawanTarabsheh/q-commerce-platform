@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.pdf-icon {
+    content: url('../images/pdf.png');
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.excel-icon {
+    content: url('../images/excel.png');
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+
+header ,header a{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.stats-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.stats-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.stats-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 10px;
+    min-width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.stat-number {
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.stats-box:last-child {
+    margin-right: 0;
+}
+/*  */
+.activity-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.user-activity {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+.sidebar p, .sidebar a {
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.sidebar p {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar a.active {
+    background-color: #555;
+}
+
+.create {
+    float: right;
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Add pointer cursor */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.create:hover {
+    background-color: #218838; /* Darker green on hover */
+}
